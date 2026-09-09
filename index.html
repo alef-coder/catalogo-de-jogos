@@ -4,12 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Melhores promoções de jogos na Steam">
+  <meta name="theme-color" content="#1b2838">
   <title>Ofertas de Jogos</title>
+  
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>🔥 Promoções de Jogos na Steam</h1>
+    
+    <!-- Recurso de Hardware/Dispositivo: Geolocalização -->
+    <div id="localizacao-box" style="margin-top: 10px; font-size: 0.9rem; color: #66c0f4; text-align: center;">
+      <button id="btn-localizacao" style="padding: 5px 10px; cursor: pointer;">📍 Onde estou?</button>
+      <span id="texto-localizacao"></span>
+    </div>
+
+    <!-- Botão de Instalação do PWA -->
+    <div style="margin-top: 15px; text-align: center;">
+      <button id="btn-instalar" style="display: none; padding: 10px 15px; font-weight: bold; background-color: #a4d007; color: #000; border: none; border-radius: 5px; cursor: pointer;">
+        📲 Instalar Aplicativo
+      </button>
+    </div>
   </header>
 
   <main>
