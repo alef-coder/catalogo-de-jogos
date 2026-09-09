@@ -1,0 +1,21 @@
+{
+  "name": "Catálogo de Ofertas de Jogos",
+  "short_name": "Ofertas Jogos",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1b2838",
+  "theme_color": "#1b2838",
+  "description": "Veja as melhores promoções da Steam direto no seu celular.",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
